@@ -1,2 +1,4 @@
-package dev.cey.v1.api;public class PublisherController {
+package dev.cey.v1.api;
+
+public class PublisherController {
 }

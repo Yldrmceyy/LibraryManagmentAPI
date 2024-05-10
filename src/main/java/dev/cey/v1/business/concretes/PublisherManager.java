@@ -1,2 +1,4 @@
-package dev.cey.v1.business.concretes;public class PublisherManager {
+package dev.cey.v1.business.concretes;
+
+public class PublisherManager {
 }

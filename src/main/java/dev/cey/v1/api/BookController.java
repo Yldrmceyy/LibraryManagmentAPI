@@ -1,2 +1,4 @@
-package dev.cey.v1.api;public class BookController {
+package dev.cey.v1.api;
+
+public class BookController {
 }

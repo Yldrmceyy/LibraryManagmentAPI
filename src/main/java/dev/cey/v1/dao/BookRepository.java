@@ -1,2 +1,4 @@
-package dev.cey.v1.dao;public class BookRepository {
+package dev.cey.v1.dao;
+
+public class BookRepository {
 }

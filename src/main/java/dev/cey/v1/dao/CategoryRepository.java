@@ -1,2 +1,4 @@
-package dev.cey.v1.dao;public class CategoryRepository {
+package dev.cey.v1.dao;
+
+public class CategoryRepository {
 }

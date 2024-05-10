@@ -1,2 +1,4 @@
-package dev.cey.v1.api;public class BookBorrowingController {
+package dev.cey.v1.api;
+
+public class BookBorrowingController {
 }
