@@ -14,18 +14,10 @@ import java.time.LocalDate;
 @NoArgsConstructor
 public class AuthorSaveRequest {
 
-    @NotNull
-    @NotEmpty
+    @NotNull(message = "Yazar adı boş veya null olamaz")
+
     private String name;
-
-
-    @NotNull
-    @NotEmpty
-    private LocalDate year;
-
-
-    @NotNull
-    @NotEmpty
+    private LocalDate birthDate;
     private String country;
 
 }

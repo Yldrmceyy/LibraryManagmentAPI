@@ -8,7 +8,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class AuthorResponse {
-    private int id;
+    private Long id;
     private String name;
+    private String birthDate;
+    private String country;
 
 }

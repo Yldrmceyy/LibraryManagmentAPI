@@ -23,9 +23,8 @@ public class Author {
     @Column(name = "author_name",nullable = false)
     private String name;
 
-    @Temporal(TemporalType.DATE)
-    @Column(name = "author_birthday",nullable = false)
-    private LocalDate year;
+    @Column(name = "author_birthDate ")
+    private LocalDate birthDate;
 
     @Column(name = "author_country",nullable = false)
     private String country;
