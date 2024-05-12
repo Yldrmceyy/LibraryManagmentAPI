@@ -1,4 +1,4 @@
 package dev.cey.v1.dao;
 
-public class BookBorrowingRepository {
+public interface BookBorrowingRepository {
 }

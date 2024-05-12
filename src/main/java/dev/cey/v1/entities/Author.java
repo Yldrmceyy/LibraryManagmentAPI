@@ -26,7 +26,7 @@ public class Author {
     @Column(name = "author_birthDate ")
     private LocalDate birthDate;
 
-    @Column(name = "author_country",nullable = false)
+    @Column(name = "author_country")
     private String country;
 
     @OneToMany(mappedBy = "author",cascade = CascadeType.REMOVE)
