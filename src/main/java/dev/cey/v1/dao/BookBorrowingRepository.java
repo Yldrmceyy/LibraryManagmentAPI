@@ -1,4 +1,9 @@
 package dev.cey.v1.dao;
 
-public interface BookBorrowingRepository {
+import dev.cey.v1.entities.BookBorrowing;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface BookBorrowingRepository extends JpaRepository<BookBorrowing,Long > {
 }
