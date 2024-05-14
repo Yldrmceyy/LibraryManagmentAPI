@@ -1,7 +1,7 @@
 package dev.cey.v1.business.concretes;
 
 import dev.cey.v1.business.abstracts.IBookService;
-import dev.cey.v1.core.excepiton.NotFoundException;
+import dev.cey.v1.core.exception.NotFoundException;
 import dev.cey.v1.core.utilies.Msg;
 import dev.cey.v1.dao.BookRepository;
 import dev.cey.v1.entities.Book;

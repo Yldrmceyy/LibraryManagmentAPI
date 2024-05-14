@@ -1,4 +1,4 @@
-package dev.cey.v1.core.excepiton;
+package dev.cey.v1.core.exception;
 
 public class NotFoundException extends RuntimeException {
 

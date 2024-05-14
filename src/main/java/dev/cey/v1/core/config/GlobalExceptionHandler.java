@@ -1,6 +1,6 @@
 package dev.cey.v1.core.config;
 
-import dev.cey.v1.core.excepiton.NotFoundException;
+import dev.cey.v1.core.exception.NotFoundException;
 import dev.cey.v1.core.result.Result;
 import dev.cey.v1.core.result.ResultData;
 import dev.cey.v1.core.utilies.ResultHelper;
