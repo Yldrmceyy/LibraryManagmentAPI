@@ -1,10 +1,9 @@
 package dev.cey.v1.business.concretes;
 
 import dev.cey.v1.business.abstracts.IBookBorrowingService;
-import dev.cey.v1.core.excepiton.NotFoundException;
+import dev.cey.v1.core.exception.NotFoundException;
 import dev.cey.v1.core.utilies.Msg;
 import dev.cey.v1.dao.BookBorrowingRepository;
-import dev.cey.v1.entities.Book;
 import dev.cey.v1.entities.BookBorrowing;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
