@@ -50,7 +50,7 @@ public class AuthorController {
             @RequestParam(name = "pageSize", required = false, defaultValue = "10") int pageSize
     ) {
         Page<Author> authors = this.authorService.cursor(page, pageSize);
-        Page<AuthorResponse> authorResponsePage = authors.map(category -> this.modelMapper.forResponse().map(category, AuthorResponse.class));
+        Page<AuthorResponse> authorResponsePage = authors.map(author -> this.modelMapper.forResponse().map(author, AuthorResponse.class));
         return ResultHelper.cursor(authorResponsePage);
     }
 
